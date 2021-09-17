@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CategoryDetailExampleApp">
         <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

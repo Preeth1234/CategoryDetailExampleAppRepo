@@ -5,11 +5,13 @@ import android.os.Parcelable;
 
 public class Food implements Parcelable
 {
+    public int getImageResourceID() {
+        return imageResourceID;
+    }
 
 
 
-
-    /*
+/*
      These final static arrays wil represent the data for each category. If we have 3 categories we will have 3 arrays.
 
      Each array can have as many elements as it wants.

@@ -19,7 +19,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/foodTV"
         android:layout_width="151dp"
         android:layout_height="132dp"
         android:text="TextView"
@@ -28,8 +28,9 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="210dp" />
 
+
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/food1TV"
         android:layout_width="130dp"
         android:layout_height="22dp"
         android:layout_marginBottom="296dp"
@@ -38,7 +39,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <ListView
         android:id="@+id/list_options"

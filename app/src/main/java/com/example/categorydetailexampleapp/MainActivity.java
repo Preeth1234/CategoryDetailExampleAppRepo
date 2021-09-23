@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+                Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
 
 
                 // create an ArrayList of whatever type of data you are displaying in this app

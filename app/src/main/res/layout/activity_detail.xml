@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".DetailActivity">
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -20,14 +22,13 @@
 
     <TextView
         android:id="@+id/foodTV"
-        android:layout_width="151dp"
+        android:layout_width="106dp"
         android:layout_height="132dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="210dp" />
-
 
     <TextView
         android:id="@+id/food1TV"

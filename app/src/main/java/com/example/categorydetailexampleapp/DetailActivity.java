@@ -29,7 +29,7 @@ public class DetailActivity extends AppCompatActivity {
             // Finish this code to match your xml file.  These names are what I used.
                 TextView name = findViewById(R.id.food1TV);
             TextView price = findViewById(R.id.foodTV);
-          //  TextView desc = findViewById(R.id.descTextView);
+           TextView desc = findViewById(R.id.descTV);
             ImageView photo = findViewById(R.id.imageView2);
 
             // set values on the screen based on the object that was passed to this Detail activity

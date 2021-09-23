@@ -21,6 +21,12 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
+        android:id="@+id/descTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
         android:id="@+id/foodTV"
         android:layout_width="106dp"
         android:layout_height="132dp"
@@ -45,8 +51,9 @@
         android:id="@+id/list_options"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:entries="@array/options"
-        android:layout_marginLeft="10dp"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 

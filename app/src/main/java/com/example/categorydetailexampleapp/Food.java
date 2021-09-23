@@ -38,19 +38,19 @@ public class Food implements Parcelable
 
 
     public static final Food[] myBreakfast = {
-            new Food("Pancakes", 6.99, "4 pancakes", R.drawable.breakfast),
-            new Food("Waffles", 7.50, "Crispy Golden Brown", R.drawable.breakfast),
+            new Food("Pancakes", 6.99, "4 pancakes", R.drawable.pancakee),
+            new Food("Waffles", 7.50, "Crispy Golden Brown", R.drawable.wafflo),
     };
 
     public static final Food[] myLunch = {
-            new Food("Sandwich", 8.00, "4 pancakes", R.drawable.lunch),
-            new Food("Waffles", 10.00, "Crispy Golden Brown", R.drawable.lunch),
+            new Food("Sandwich", 8.00, "Good sandwich", R.drawable.sandwo),
+            new Food("Chicken", 10.00, "Big chicken", R.drawable.chick),
 
     };
 
     public static final Food[] myDinner = {
-            new Food("Pancakes", 10.00, "4 pancakes", R.drawable.dinner),
-            new Food("Waffles", 13.00, "Crispy Golden Brown", R.drawable.dinner),
+            new Food("Salad", 11.00, "Very healthy salad", R.drawable.salo),
+            new Food("Burger", 13.00, "Crispy Golden Brown", R.drawable.burgo),
 
     };
 

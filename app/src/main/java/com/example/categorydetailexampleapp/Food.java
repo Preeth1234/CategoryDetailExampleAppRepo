@@ -63,22 +63,22 @@ public class Food implements Parcelable
 
     private String name;
     private double price;
-    private String description;
+    private String desc;
     private int imageResourceID;
     // This will allow us to have a picture
     // Android studio catalogs images with int values
 
-    public Food(String name, double price, String description, int imageResourceID) {
+    public Food(String name, double price, String desc, int imageResourceID) {
         this.name = name;
         this.price = price;
-        this.description = description;
+        this.desc = desc;
         this.imageResourceID = imageResourceID;
     }
 
     public Food(String name, double price, int imageResourceID) {
         this.name = name;
         this.price = price;
-        this.description = "";
+        this.desc = "";
         this.imageResourceID = imageResourceID;
 
 
@@ -99,7 +99,7 @@ public class Food implements Parcelable
     public Food(Parcel parcel) {
         name = parcel.readString();
         price = parcel.readDouble();
-        description = parcel.readString();
+        desc = parcel.readString();
         imageResourceID = parcel.readInt();
     }
 
@@ -114,13 +114,13 @@ public class Food implements Parcelable
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(name);
         dest.writeDouble(price);
-        dest.writeString(description);
+        dest.writeString(desc);
         dest.writeInt(imageResourceID);
     }
     public Food() {
         name = "";
         price = 0;
-        description = "";
+        desc = "";
         imageResourceID = 0;
     }
 
@@ -165,12 +165,12 @@ public class Food implements Parcelable
         this.price = price;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDesc() {
+        return desc;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     public String toString()

@@ -35,7 +35,9 @@ public class DetailActivity extends AppCompatActivity {
             // set values on the screen based on the object that was passed to this Detail activity
             name.setText(myFood.getName());
             price.setText("$"+myFood.getPrice());
-       //     description.setText(myFood.getDescription());
+
+
+            desc.setText(myFood.getDesc());
 
             if (myFood.getImageResourceID() == 0) {
                 // set a default pic or decide what to do in this case.
